@@ -52,8 +52,8 @@ The feature extraction methods tested on [emoUERJ](https://zenodo.org/records/54
 <img src="https://github.com/gustavo-fardo/speech-emotion-ptbr/assets/78488285/b4e14b69-09c8-49a9-aeea-269a9863e4b9" width=50%>
 
 ## Results
-<img src="https://github.com/gustavo-fardo/speech-emotion-ptbr/assets/78488285/3939638c-4166-4adc-87ef-0566df4b4800" width=50%>
-<img src="https://github.com/gustavo-fardo/speech-emotion-ptbr/assets/78488285/d1329e74-c592-4e3c-aee5-bf2566220bee" width=50%>
+<img src="https://github.com/gustavo-fardo/speech-emotion-ptbr/assets/78488285/3939638c-4166-4adc-87ef-0566df4b4800" width=70%>
+<img src="https://github.com/gustavo-fardo/speech-emotion-ptbr/assets/78488285/d1329e74-c592-4e3c-aee5-bf2566220bee" width=70%>
 
 ## Implementations
 The requirements for the implementations can be installed with:
