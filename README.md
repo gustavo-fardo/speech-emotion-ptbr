@@ -26,7 +26,7 @@ Deactivate it with:
 deactivate
 ```
 
-*To reproduce results, dowloading [emoUERJ](https://zenodo.org/records/5427549) is needed, and then put it inside /datasets folder*
+*To reproduce results, dowloading [emoUERJ](https://zenodo.org/records/5427549) is needed, and then to put it inside /datasets folder*
 
 ## Data Augmentation
 The data augmentation methods, using the [Audiomentations](https://github.com/iver56/audiomentations) library, were used to triple the size of the dataset, and are the following:
@@ -45,6 +45,23 @@ The feature extraction methods tested on [emoUERJ](https://zenodo.org/records/54
 - [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) library
 - Mel-Frequency Cepstrum Coefficients (MFCC) with [Librosa library]()
 - Mel Spectrogram with [Librosa library]()
+
+## Models
+- SVM: a simple support vector machine with linear kernel and C=1.0
+- Neural Network: a deep learning network built with [Keras](https://keras.io/)
+<img src="https://github.com/gustavo-fardo/speech-emotion-ptbr/assets/78488285/b4e14b69-09c8-49a9-aeea-269a9863e4b9" width=50%>
+
+## Results
+<img src="https://github.com/gustavo-fardo/speech-emotion-ptbr/assets/78488285/3939638c-4166-4adc-87ef-0566df4b4800" width=50%>
+<img src="https://github.com/gustavo-fardo/speech-emotion-ptbr/assets/78488285/d1329e74-c592-4e3c-aee5-bf2566220bee" width=50%>
+
+## Implementations
+The requirements for the implementations can be installed with:
+```
+pip install -r requirements.txt
+```
+- **embedded_classifier.py**: captures audio from a microphone and classifies it with a emotion in near real-time
+- **realtime_emotion_subtitle.py**: given a audio in .wav, gives a proportion of each of the 4 emotions in near real-time
 
 ## Authors
 - [Daniel Augusto Pires de Castro](https://github.com/daniapc).
