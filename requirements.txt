@@ -5,3 +5,4 @@ pandas
 tensorflow
 scikit-learn
 pyAudioAnalysis
+praat-parselmouth
