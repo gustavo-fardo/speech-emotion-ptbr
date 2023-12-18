@@ -1,1 +1,7 @@
-
+sounddevice
+numpy
+librosa
+pandas
+tensorflow
+scikit-learn
+pyAudioAnalysis
