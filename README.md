@@ -8,8 +8,8 @@ This repository contains the develompent of classification models for recognizin
 ## Installation
 Repository installation
 ``` 
-git clone https://github.com/gustavo-fardo/projeto-embarcado-ima
-cd ./projeto-embarcado-ima
+git clone https://github.com/gustavo-fardo/speech-emotion-ptbr
+cd ./speech-emotion-ptbr
 ```
 Create a python virtual environment (recommended):
 ```
